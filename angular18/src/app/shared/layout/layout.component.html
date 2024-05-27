@@ -1,2 +1,14 @@
-<p>layout works!</p>
-<router-outlet></router-outlet>
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex" role="search">
+       
+        <button class="btn btn-outline-success" type="button" routerLink="/login">Login</button>
+        <button class="btn btn-outline-success" type="button" routerLink="/register">Register</button>
+      </form>
+    </div>
+  </nav>
+  <main class="container mt-5">
+    <router-outlet></router-outlet>
+
+  </main>
